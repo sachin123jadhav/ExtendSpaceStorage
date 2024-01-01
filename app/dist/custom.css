@@ -48,6 +48,49 @@ fieldset{margin-bottom: 15px;}
 .font-sm{font-size: 12px !important;}
 .anchor-blue a{color: #338CFF;}
 
+
+/* OTP */
+.otp-field {
+  flex-direction: row;
+  column-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp-field input {
+  height: 45px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid #ddd;padding: 5px;
+  color: #000;
+}
+.otp-field input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.otp-field input::-webkit-inner-spin-button,
+.otp-field input::-webkit-outer-spin-button {
+  display: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* OTP */
+
+
+.login-slider .login p{margin-top: 0;}
+
 @media only screen and (max-width: 991px) {
 .login-slider > .row{flex-direction: column-reverse;}
 .login-slider {
