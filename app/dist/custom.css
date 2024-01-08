@@ -294,6 +294,24 @@ line-height: 135.023%;}
 }
 .calculate a{background: rgba(141, 198, 63, 0.10)}
 
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ccc;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ccc;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #ccc;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ccc;
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 991px) {
 .login-slider > .row{flex-direction: column-reverse;}
