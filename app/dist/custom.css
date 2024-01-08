@@ -207,7 +207,24 @@ p{color: #374151; margin: 15px 0;}
 
 }
 
+.testimonials-wrap{
+  position: relative;
+background-image: url(../../assets/images/testimonials/bg-1.png); background-repeat: no-repeat; background-size: cover;
 
+.testimonials-block{
+
+  background-color: #fff; padding: 30px;
+width: 360px;
+  margin: auto;
+
+
+.author-wrap{display: flex; display: flex;
+  justify-content: space-between;
+.author-box{display: flex;padding: 0;transform: translateY(100px);}
+}
+
+}
+}
 
 
 
