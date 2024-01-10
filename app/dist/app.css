@@ -1372,8 +1372,8 @@
 
 .title-inner {
   padding: 28px 0 19px;
-  border-bottom: 1px solid #EFEFEF;
-  margin-bottom: 28px;
+
+ 
 }
 .title-inner .title-group > a {
   position: relative;
@@ -1388,9 +1388,7 @@
   top: 5px;
   margin: 0 12.5px 0 11.5px;
 }
-.title-inner.style {
-  margin-bottom: 40px;
-}
+
 .title-inner.style-detail {
   padding: 28px 0 29px;
   border-bottom: 0;
@@ -2160,7 +2158,7 @@
   position: relative;
 }
 .comments .comment-form .input-item input::placeholder {
-  color: #120A21;
+  color: rgba(17, 2, 41, 0.50);
   line-height: 26px;
   font-size: 14px;
   font-weight: 400;
@@ -2196,7 +2194,7 @@
   position: relative;
 }
 .comments .comment-form fieldset input::placeholder {
-  color: #120A21;
+  color: rgba(17, 2, 41, 0.50);
   line-height: 26px;
   font-size: 14px;
   font-weight: 400;
@@ -2224,7 +2222,7 @@
   border-radius: 10px;
 }
 .comments .comment-form fieldset textarea::placeholder {
-  color: #120A21;
+  color: rgba(17, 2, 41, 0.50);
   line-height: 26px;
   font-size: 14px;
   font-weight: 400;
@@ -5647,7 +5645,7 @@
   line-height: 19.5px;
 }
 .widget-form fieldset input::placeholder {
-  color: #8E8E93;
+  color: rgba(17, 2, 41, 0.50);
   line-height: 19.5px;
   font-size: 13px;
   font-weight: 400;
@@ -7010,7 +7008,7 @@
   box-shadow: 5px 5px 0 black;
 }
 .search-flat .search-form .search-field::placeholder {
-  color: #fff !important;
+  color: #fff 
 }
 
 .side-bar .widget {
@@ -8742,7 +8740,7 @@ input[type=color] {
   padding: 13px 15px 13px 27px;
   width: 100%;
   background: #F6F6F6;
-  color: #fff;
+  color: #000;
 }
 
 textarea::placeholder,
@@ -8774,15 +8772,15 @@ input[type=color]::placeholder {
 
 /* Placeholder color */
 ::-webkit-input-placeholder {
-  color: #8A8AA0;
+  color: rgba(17, 2, 41, 0.50);
 }
 
 :-moz-placeholder {
-  color: #8A8AA0;
+  color: rgba(17, 2, 41, 0.50);
 }
 
 ::-moz-placeholder {
-  color: #8A8AA0;
+  color: rgba(17, 2, 41, 0.50);
   opacity: 1;
 }
 
@@ -8797,7 +8795,7 @@ input[type=color]::placeholder {
 
 /* Since FF19 lowers the opacity of the placeholder by default */
 :-ms-input-placeholder {
-  color: #8A8AA0;
+  color: rgba(17, 2, 41, 0.50);
 }
 
 .text-p,
@@ -9419,9 +9417,9 @@ path {
   border-radius: 10px;
 }
 .search-form .search-field::placeholder {
-  color: #120A21 !important;
+  color: #120A21 ;
   line-height: 19px;
-  font-size: 14px !important;
+  font-size: 14px ;
   font-weight: 400;
 }
 .search-form .search-field:focus {
