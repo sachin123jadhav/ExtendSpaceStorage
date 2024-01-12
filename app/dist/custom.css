@@ -26,7 +26,7 @@ border: 1px solid #D1D5DB; background: #FFF; }
 
 .register-link p{color: #1B1C57; font-size: 16px;}
 .register-link a{color: #8DC63F;}
-.sc-button{background-color: #338CFF; color: #fff;}
+.sc-button{background-color: #338CFF; color: #fff;border: transparent;}
 .sc-button:hover{background-color: #8DC63F;}
 .sc-button.btn-success{background-color: #8DC63F;color: #fff;}
 .sc-button.btn-success:hover{background-color: #338CFF;}
@@ -327,7 +327,7 @@ border: 1px solid var(--stroke, #D1D5DB); }
 
 }
 
-
+.footer-contact input, .banner-form input{padding: 13px 15px 13px 15px;}
 
 
 
