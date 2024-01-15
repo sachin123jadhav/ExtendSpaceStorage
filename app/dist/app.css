@@ -764,7 +764,7 @@
   -o-transform: scaleY(1);
   transform: scaleY(1);
   opacity: 1;
-  visibility: visible;
+  visibility: visible;border-radius: 12px;
 }
 
 .main-header .main-menu .navigation li > ul > li.dropdown2:hover > ul {
@@ -1380,13 +1380,14 @@
   display: inline-block;
 }
 .title-inner .title-group > a::after {
-  content: "\f054";
+  content: "\f101";
   font-family: "Font Awesome 5 Pro";
   color: #120A21;
-  font-size: 8px;
+  font-size: 18px;
   line-height: normal;
   top: 5px;
   margin: 0 12.5px 0 11.5px;
+  font-weight: 100;
 }
 
 .title-inner.style-detail {
@@ -9151,6 +9152,9 @@ button {
 
 .fs-40 {
   font-size: 40px;
+}
+.fs-50 {
+  font-size: 50px;
 }
 
 .z-2 {
