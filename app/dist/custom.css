@@ -367,6 +367,71 @@ div.sidebar .flat-toggle .toggle-title.active .btn-toggle::after {
 }
 div.sidebar .flat-toggle .btn-toggle::after {content: "\f107";}
 
+div.sidebar .flat-toggle .toggle-title {
+  padding: 15px 0px 20px 0px;}
+
+  /* div.sidebar .flat-toggle.activ .toggle-title {
+  padding: 15px 0px 5px 0px;} */
+
+div.sidebar .flat-toggle .toggle-content {
+  padding: 0;}
+
+div.sidebar .flat-toggle .btn-toggle{top: 15px;}
+
+.flat-faq {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.radio {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.radio-input {
+  display: none;
+}
+
+.radio-input-circle {
+  border: .15rem solid #C1C4DA;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  margin-right: .5rem;
+  transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.radio-input:checked ~ .radio-input-circle {
+    border: .35rem solid #8DC63F;
+}
+
+.radio:not(:last-child){margin-bottom: 15px;}
+.radio:last-child{margin-bottom: 0;}
+.filters{ border-bottom: solid 1px #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 10px !important;}
+.flat-faq .flat-toggle{margin: 0;}
+.filters .input-group-append{position: absolute; right: 8px;
+  top: 15px; z-index: 9;}
+.filters .input-group-append i{color:#110229 ; font-size: 20px;}
+.calender{border-radius: 8px !important;}
+
+.filters #slider-range-value01::after, #slider-range-value1::after{ content: '';}
+
+.filters #slider-range-value01, .filters #slider-range-value02{width: 50px;
+  height: 50px;  display: flex;  border: solid 1px #ccc;  align-items: center;  justify-content: center;}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -380,6 +445,8 @@ div.sidebar .flat-toggle .btn-toggle::after {content: "\f107";}
 
 /* Banners */
 .design-list{background-image: url(../../assets/images/banners/about-us.png);background-position: right bottom;}
+
+
 
 
 /* Banners */

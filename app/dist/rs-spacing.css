@@ -1959,7 +1959,7 @@
 		padding-left: 9px;
 	}
 	.pl-10 {
-		padding-left: 10px;
+		padding-left: 10px !important;
 	}
 	.pl-11 {
 		padding-left: 11px;
