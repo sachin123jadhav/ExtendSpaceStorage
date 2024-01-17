@@ -411,7 +411,7 @@ div.sidebar .flat-toggle .btn-toggle{top: 15px;}
 .radio:not(:last-child){margin-bottom: 15px;}
 .radio:last-child{margin-bottom: 0;}
 .filters{ border-bottom: solid 1px #ccc;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin-bottom: 10px !important;}
 .flat-faq .flat-toggle{margin: 0;}
 .filters .input-group-append{position: absolute; right: 8px;
@@ -421,17 +421,41 @@ div.sidebar .flat-toggle .btn-toggle{top: 15px;}
 
 .filters #slider-range-value01::after, #slider-range-value1::after{ content: '';}
 
-.filters #slider-range-value01, .filters #slider-range-value02{width: 50px;
-  height: 50px;  display: flex;  border: solid 1px #ccc;  align-items: center;  justify-content: center;}
+.filters #slider-range-value01, .filters #slider-range-value02{width: 80px;border-radius: 10px;  height: 50px;  display: flex;  border: solid 1px #ccc;  align-items: center;  justify-content: center;}
 
+.flat-toggle div.filters .section-desc{ padding-bottom: 15px;}
+.text-color-9{color: rgba(17, 2, 41, 0.50); }
+.flat-featured .tags{color: #1D4ED8; padding: 13px;border-radius: 24.182px;
+background: #FEF2DB;font-weight: 400; }
+.flat-featured .tags i{margin-right: 5px;}
 
+.flat-featured .location-details{ align-items: center; color: #374151;}
+.flat-featured .location-details i{margin-right:15px; color: #8DC63F; font-size: 25px;}
+.flat-featured .location-details span{background: #8DC63F; padding: 2px; width: 22px; height: 22px; margin-right:10px; border-radius: 5px; display: flex; align-items: center; justify-content: center;}
+.flat-featured .location-details span i{ color: #fff;margin: 0; font-size: 16px;}
 
+.flat-featured .bottom{display: flex; align-items: center; justify-content: space-between; margin-top: 22px; font-size: 20px;}
+.flat-featured .old-price{color: #E29A9A; position: relative;  }
+.flat-featured .old-price::before{width: 100%;
+  height: 2px;
+  background-color: #E29A9A;
+  content: '';
+  position: absolute;
+  bottom: 12px;
+  left: -4px;}
 
+.flat-featured span.fs-14{font-size: 14px; padding-left: 6px;}
+.sold .image-group .icon-plus{opacity: 1;
+  z-index: 99;
+  transition-delay: 0.3s;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  text-align: center;}
 
-
-
-
-
+.sold .img-style::before {
+  opacity: 1;
+}
 
 
 

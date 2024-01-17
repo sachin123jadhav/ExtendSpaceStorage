@@ -356,5 +356,20 @@
 
     });
 
+      document.addEventListener("DOMContentLoaded", function () {
+        var wordLimitContainers = document.querySelectorAll(".word-limit");
+
+        wordLimitContainers.forEach(function (wordLimitContainer) {
+          var paragraph = wordLimitContainer.querySelector("p");
+          var limit = parseInt(wordLimitContainer.getAttribute("data-limit"));
+
+          var words = paragraph.innerText.split(" ");
+          if (words.length > limit) {
+            paragraph.innerText = words.slice(0, limit).join(" ") + "...";
+          }
+        });
+      });
+
+
 })(jQuery);
 
