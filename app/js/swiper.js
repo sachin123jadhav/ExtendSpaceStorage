@@ -543,14 +543,14 @@ var swiper =  new Swiper(".carousel-11", {
 });
 
 var swiperthumbs = new Swiper(".thumbs-swiper-row1", {
-    spaceBetween: 16,
-    slidesPerView: "auto",
+    spaceBetween: 5,
+    slidesPerView: 4,
     freeMode: true,
     watchSlidesProgress: true,
 });
 
 var swiper2 = new Swiper(".thumbs-swiper-row", {
-    spaceBetween: 16,
+    spaceBetween: 5,
     autoplay: {
         delay: 3000,
         disableOnInteraction: false,
