@@ -489,6 +489,7 @@ background: #FEF2DB;font-weight: 400; }
   font-size:24px}
    .fs-28 {
   font-size:28px}
+  .fs-8{font-size: 8px;}
 .border-none{border: 0;}
 
   .text-color-7{color: #1B1C57;}
@@ -557,16 +558,18 @@ border: 1px solid #D1D5DB;display: flex;
 .popover-body{border-radius: 8px;
 background: #8DC63F; padding: 5px; color: #fff; text-align: center; }
 .popover{border: 0;}
-
-
-
-
-
-
-
-
-
-
+.lh-1{line-height: 1;}
+.coupon{background-color: #F7F9FC;}
+.c-name{color: #EC9700;font-size: 13px;font-style: normal;font-weight: 500; }
+.c-action p{font-weight: 800;}
+.c-action .fw-4{font-weight: 400;}
+.coupon-wrap{display: flex; justify-content: space-between; align-items: center; padding: 10px;}
+.c-icon{width: 50px;}
+.c-text{flex: 1;}
+.tprice{display: flex;
+  justify-content: space-between;align-items: center;}
+.price-sec{border-radius: 14px;
+box-shadow: 0px 10px 10px 0px rgba(31, 41, 55, 0.04), 0px 20px 25px 0px rgba(31, 41, 55, 0.10); }
 
 
 
