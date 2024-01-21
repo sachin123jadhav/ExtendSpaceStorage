@@ -60,7 +60,7 @@
 
     <div id="wrapper" style="background-color: rgba(247, 249, 252, 1);">
         <div class="bg-half-white">
-            
+
         </div>
         <div id="pagee" class="clearfix">
 
@@ -96,11 +96,11 @@
                     <div class="row">
                         <div class="col-md-6">
 
-                            <h1>Book Your Space</h1>
+                            <h1 class="fs-38">Book Your Space</h1>
 
-                            <div class="flex input-white mt-20 filters border-0">
-                                <div>
-                                    <label for="">start date*</label>
+                            <div class="row input-white mt-20 filters border-0">
+                                <div class="col-md-6">
+                                    <label for="">start date<span class="text-danger">*</span></label>
                                     <div class="input-group relative mr-5">
 
                                         <input type="text" class="form-control calender" id="datepicker"
@@ -110,8 +110,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-                                    <label for="">End Date*</label>
+                                <div class="col-md-6">
+                                    <label for="">End Date<span class="text-danger">*</span></label>
                                     <div class="input-group relative ml-5">
                                         <input type="text" class="form-control calender" id="datepicker"
                                             placeholder="To">
@@ -127,7 +127,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <fieldset class="">
-                                        <label for="">Enter your Address*</label>
+                                        <label for="">Enter your Address <span class="text-danger">*</span></label>
                                         <input type="text" class="pl-10" name="text" placeholder="Address line 2"
                                             required="">
                                     </fieldset>
@@ -145,7 +145,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group-2 mb-15">
-                                        <label for="">City*</label>
+                                        <label for="">City<span class="text-danger">*</span></label>
                                         <div class="group-select">
                                             <div class="nice-select" tabindex="0"><span class="current">City</span>
                                                 <ul class="list">
@@ -164,7 +164,7 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group-2 mb-15">
-                                        <label for="">District*</label>
+                                        <label for="">District<span class="text-danger">*</span></label>
                                         <div class="group-select">
                                             <div class="nice-select" tabindex="0"><span class="current">District</span>
                                                 <ul class="list">
@@ -185,7 +185,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group-2">
-                                        <label for="">State*</label>
+                                        <label for="">State<span class="text-danger">*</span></label>
                                         <div class="group-select">
                                             <div class="nice-select" tabindex="0"><span class="current">State</span>
                                                 <ul class="list">
@@ -203,19 +203,20 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                <fieldset class="">
-                                    <label for="">Pincode*</label>
-                                    <input type="text" class="pl-10" name="text" placeholder="Address line 2" required="">
-                                </fieldset>
+                                    <fieldset class="">
+                                        <label for="">Pincode<span class="text-danger">*</span></label>
+                                        <input type="text" class="pl-10" name="text" placeholder="Address line 2"
+                                            required="">
+                                    </fieldset>
                                 </div>
                             </div>
 
 
-                            <article class="summery">
+                            <article class="summery mt-30">
 
                                 <h3 class="mt-20 mb-20 fs-24">Summary</h3>
 
-                                <table class="table table-borderless">
+                                <table class="table table-borderless mb-25">
                                     <tbody>
                                         <tr>
                                             <td>Daily Rental Rate</td>
@@ -237,17 +238,161 @@
                                             <td>Taxes (18%)</td>
                                             <td class="text-right">₹839.16</td>
                                         </tr>
+                                        <tr style="border-radius: 12px;
+background: rgba(141, 198, 63, 0.20);">
+                                            <td> <span class="fs-24 fw-6">Total</span></td>
+                                            <td class="text-right"><span class="fs-24 fw-6">₹36581.16</span></td>
+                                        </tr>
                                     </tbody>
                                 </table>
 
+                                <div class="ack tf-amenities">
+
+
+
+
+                                    <span class="check-box">
+                                        <label class="flex"><input name="newsletter" type="checkbox" checked />
+                                            <span class="btn-checkbox"></span><span class="fs-13">I acknowledge that all
+                                                the details I provide are accurate to the best of my knowledge & will be
+                                                shared with the host.
+                                                And I also accept the <a class="tc" href="#">Term & Conditions.</a></span>
+                                        </label>
+
+
+                                    </span>
+                                </div>
+                               
+
                             </article>
+<h3 class="mt-30">Applied coupon</h3>
+                            <div class="coupon mt-10 mb-50">
+
+                                
+                               
+                                <div class="coupon-wrap">
+                            
+                                    <div class="c-icon">
+                                        <img src="assets/images/icon/coupon1.svg" alt="">
+                                    </div>
+                                    <div class="c-text">
+                                        <p><span class="c-name">“EXTNEW”</span> <span class="text-color-4 fs-8">Use
+                                                Coupon code</span> </p>
+                                        <p>Get cashback upto ₹100</p>
+                                    </div>
+                                    <div class="c-action">
+                            
+                                        <p class="text-color-3 fw-600">Applied</p>
+                                        <p class="fw-4 fs-8 text-end">Remove</p>
+                            
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-1">
+                        </div>
+                        <div class="col-md-5">
+                            <div class="flat-featured flat-property-grid flat-property wg-dream home2">
+
+
+                                <div class="box box-dream hv-one style-dream">
+                                    <div class="image-group relative ">
+                                        <span class="featured fs-12 fw-6"><svg width="16" height="16"
+                                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M6.10203 3.60575C6.94646 2.09091 7.36868 1.3335 7.99992 1.3335C8.63116 1.3335 9.05338 2.09091 9.89781 3.60575L10.1163 3.99765C10.3562 4.42812 10.4762 4.64335 10.6633 4.78537C10.8504 4.92738 11.0834 4.9801 11.5493 5.08553L11.9736 5.18152C13.6133 5.55253 14.4332 5.73804 14.6283 6.36532C14.8234 6.99259 14.2644 7.64621 13.1465 8.95345L12.8573 9.29164C12.5396 9.66312 12.3808 9.84886 12.3093 10.0786C12.2379 10.3084 12.2619 10.5562 12.3099 11.0519L12.3537 11.5031C12.5227 13.2472 12.6072 14.1193 12.0965 14.507C11.5858 14.8947 10.8181 14.5412 9.2828 13.8343L8.8856 13.6514C8.4493 13.4505 8.23115 13.3501 7.99992 13.3501C7.76868 13.3501 7.55054 13.4505 7.11424 13.6514L6.71703 13.8343C5.1817 14.5412 4.41404 14.8947 3.90335 14.507C3.39267 14.1193 3.47717 13.2472 3.64618 11.5031L3.68991 11.0519C3.73794 10.5562 3.76195 10.3084 3.69049 10.0786C3.61904 9.84886 3.4602 9.66312 3.14253 9.29164L2.85332 8.95345C1.73542 7.64621 1.17647 6.99259 1.37153 6.36532C1.5666 5.73804 2.38649 5.55253 4.02628 5.18152L4.45051 5.08553C4.91649 4.9801 5.14947 4.92738 5.33655 4.78537C5.52362 4.64335 5.6436 4.42812 5.88356 3.99765L6.10203 3.60575Z"
+                                                    fill="#fff" />
+                                            </svg> 4 </span>
+
+
+                                        <div class="swiper-container noo carousel-2 img-style">
+                                            <a href="#" class="icon-plus"><img src="assets/images/icon/plus.svg"
+                                                    alt="images"></a>
+                                            <div class="swiper-wrapper ">
+                                                <div class="swiper-slide"><img src="assets/images/house/featured-30.jpg"
+                                                        alt="images">
+                                                </div>
+                                                <div class="swiper-slide"><img src="assets/images/house/featured-22.jpg"
+                                                        alt="images">
+                                                </div>
+                                                <div class="swiper-slide"><img src="assets/images/house/featured-23.jpg"
+                                                        alt="images">
+                                                </div>
+                                                <div class="swiper-slide"><img src="assets/images/house/featured-24.jpg"
+                                                        alt="images">
+                                                </div>
+                                                <div class="swiper-slide"><img src="assets/images/house/featured-25.jpg"
+                                                        alt="images">
+                                                </div>
+                                            </div>
+                                            <div class="pagi2">
+                                                <div class="swiper-pagination2"> </div>
+                                            </div>
+                                            <div class="swiper-button-next2 "><i class="fal fa-arrow-right"></i>
+                                            </div>
+                                            <div class="swiper-button-prev2 "><i class="fal fa-arrow-left"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <div class="badge badge-warning px-15 tags">
+                                            <i class="fas fa-house"></i> Household items
+                                        </div>
+                                        <h2 class="fs-22">Storage space in Maninagar, Delhi</h2>
+
+                                        <div class="flex location-details">
+                                            <i class="fas fa-map-marker-alt"></i> Manipuri Bazzaar
+                                        </div>
+                                        <div class="word-limit" data-limit="20">
+                                            <p id="limit-text" class="mt-15 mb-15 desc">Description will come
+                                                here by the host... Lorem Ipsum Lorem ipsum
+                                                dolor sit amet consectetur Description will come here by the
+                                                host... Lorem Ipsum Lorem ipsum dolor sit amet
+                                                consecteturDescription will come here by the host... Lorem Ipsum
+                                                Lorem ipsum dolor sit amet
+                                                consecteturDescription will come here by the host... Lorem Ipsum
+                                                Lorem ipsum dolor sit amet
+                                                consecteturDescription will come here by the host... Lorem Ipsum
+                                                Lorem ipsum dolor sit amet consectetur....
+                                            </p>
+
+                                        </div>
+
+
+
+
+                                        <div class="bottom">
+
+
+                                            <div class="price">
+                                                <span class="old-price">
+                                                    ₹500
+                                                </span>
+                                                <span class="new-price fw-7">₹325</span><span class="fs-14">/1
+                                                    month</span>
+                                            </div>
+
+                                            <p class="fs-18 text-color-2">Sq.Ft: 168ft (1BHK)</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+<div class="row">
+    <div class="col-md-6">
+<a href="#" class="btn btn-outline-primary btn-block">Cancel</a>
+    </div>
+    <div class="col-md-6">
+<a href="thank-you.html" class="btn btn-primary btn-block">Pay Now</a>
+    </div>
+</div>
 
                         </div>
                     </div>
-                    </container3>
+                </div>
             </section>
 
 
