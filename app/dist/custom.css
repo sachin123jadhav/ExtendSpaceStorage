@@ -489,7 +489,9 @@ background: #FEF2DB;font-weight: 400; }
   font-size:24px}
    .fs-28 {
   font-size:28px}
-    .fs-34 {
+    .fs-32 {
+  font-size:32px}
+   .fs-34 {
   font-size:34px}
   .fs-38 {
   font-size:38px}
@@ -701,7 +703,11 @@ p{color: #1B1C57;font-size: 18px;font-style: normal;font-weight: 400;line-height
 
 
 }
-
+.warehouse{position: relative;padding-bottom: 80px;
+  padding-top: 80px;}
+.warehouse::after{ position: absolute; content: ''; width: 30vw; height: 100%; right: 0; top: 0; background: url(../../assets/images/Service.svg); background-size: cover; background-position: right top; background-repeat: no-repeat;}
+.ncr{padding: 150px 0;}
+.ncr::after{background: url(../../assets/images/map-mark.svg); width: 45vw;}
 
 
 
@@ -731,7 +737,9 @@ p{color: #1B1C57;font-size: 18px;font-style: normal;font-weight: 400;line-height
 
 
 
-
+@media (min-width: 1367px) {
+ .warehouse::after {width: 23vw; padding: 120px 0;}
+}
 
 
 
