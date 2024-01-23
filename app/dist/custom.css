@@ -708,11 +708,43 @@ p{color: #1B1C57;font-size: 18px;font-style: normal;font-weight: 400;line-height
 .warehouse::after{ position: absolute; content: ''; width: 30vw; height: 100%; right: 0; top: 0; background: url(../../assets/images/Service.svg); background-size: cover; background-position: right top; background-repeat: no-repeat;}
 .ncr{padding: 150px 0;}
 .ncr::after{background: url(../../assets/images/map-mark.svg); width: 45vw;}
+.abt{border-radius: 40px;
+background: #FFF;
+box-shadow: 0px 4px 49px 0px rgba(27, 28, 87, 0.12); overflow: hidden;}
+.text-info{color:#338CFF ;}
+.become-host span + span{display: block;}
+
+.become-host{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 70px 50px 70px 0;align-items: flex-start;}
+.spec{background: url(../../assets/images/bg-1.png); background-size: cover; background-position: center center;
+  background-repeat: no-repeat;  padding: 100px 0; 
+img{max-width: 125px;}
 
 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.radius-15{border-radius: 15px;}
+.preview-sec{
+
+  .tags{background-color: #F7F9FC; color: #000; padding: 10px;}
+
+.preview{  border-radius: 20px;border: 1px solid#D1D5DB;background: #FFF; overflow: hidden;
 
 
+.header-pre{
+  background: rgba(51, 140, 255, 0.20); padding: 15px;
+}
 
+}
+
+
+}
 
 
 
@@ -721,7 +753,11 @@ p{color: #1B1C57;font-size: 18px;font-style: normal;font-weight: 400;line-height
 /* Banners */
 .design-list{background-image: url(../../assets/images/banners/about-us.png);background-position: right bottom;}
 .easy-storage{background-image: url(../../assets/images/banners/Easy-Storage.png);background-position: right bottom;}
+.list-storage{background-image: url(../../assets/images/banners/List_storage.png);background-position: right bottom;background-size: cover;
+  background-repeat: no-repeat;
 
+
+}
 
 
 
@@ -738,7 +774,7 @@ p{color: #1B1C57;font-size: 18px;font-style: normal;font-weight: 400;line-height
 
 
 @media (min-width: 1367px) {
- .warehouse::after {width: 23vw; padding: 120px 0;}
+ .warehouse::after {width: 32vw; padding: 120px 0;}
 }
 
 
