@@ -730,6 +730,7 @@ html {
   scroll-behavior: smooth;
 }
 .radius-15{border-radius: 15px;}
+
 .preview-sec{
 
   .tags{background-color: #F7F9FC; color: #000; padding: 10px;}
@@ -737,9 +738,9 @@ html {
 .preview{  border-radius: 20px;border: 1px solid#D1D5DB;background: #FFF; overflow: hidden;
 
 
-.header-pre{
-  background: rgba(51, 140, 255, 0.20); padding: 15px;
-}
+.header-pre{  background: rgba(51, 140, 255, 0.20); padding: 15px;}
+
+.preview-body{padding: 20px;}
 
 }
 
