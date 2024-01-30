@@ -1087,8 +1087,131 @@ a:hover{color: #fff; background-color: #1D4ED8;}
 
 .stay-touch{
 
-  a{text-align: center; margin: 10px;}
+  a{text-align: center; margin: 10px; }
 }
+
+
+.storage-top {background: var(--3, #F7F9FC);border-top-right-radius: 20px;border-top-left-radius: 20px; padding: 60px 60px 30px;}
+.storage-bottom{ padding: 40px 60px 30px;}
+
+
+.has-search .form-control {
+    padding-left:50px;border-radius: 128px; 
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: rgba(55, 65, 81, 1);
+}
+.add-item {
+
+
+
+
+  .swiper-button-next2{   right: 0px; left: auto; z-index: 9999;  opacity: 1;top: 50%;width: 25px;height: 25px;    background: rgba(209, 213, 219, 0.5);    border-radius: 100%;
+  i{color: #338CFF;font-size: 22px;}
+  }
+
+
+
+.swiper-button-prev2 {
+  opacity: 1; right: auto; left: 0px;top: 50%;width: 25px;height: 25px;    background: rgba(209, 213, 219, 0.5);    border-radius: 100%;
+
+i{color: #338CFF;font-size: 22px;}
+
+}
+
+.qty{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+
+}
+
+/* .swiper-wrapper{overflow: hidden;} */
+
+}
+
+.swiper-container{padding: 0 40px;}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;padding: 0;
+  width: 60px;
+}
+.quantity__minus,
+.quantity__plus {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  background: #8DC63F;
+  text-decoration: none;
+  text-align: center;
+  line-height: 18px;
+}
+.quantity__minus:hover,
+.quantity__plus:hover {
+  background: #575b71;
+  color: #fff;
+} 
+.quantity__minus {
+  border-radius: 3px 0 0 3px;
+}
+.quantity__plus {
+  border-radius: 0 3px 3px 0;
+}
+.quantity__input {
+  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  border-top: 2px solid #dee0ee;
+  border-bottom: 2px solid #dee0ee;
+  border-left: 1px solid #dee0ee;
+  border-right: 2px solid #dee0ee;
+  background: #fff;
+  color: #8184a1; 
+}
+.quantity__minus:link,
+.quantity__plus:link {
+  color: #8184a1;
+} 
+.quantity__minus:visited,
+.quantity__plus:visited {
+  color: #fff;
+}
+
+input.quantity__input{background-color: #fff; padding: 0;width: 20px;
+  height: 20px;}
+
+.flex-1{flex: 1;}
+.storage-wrap{border-radius: 40px;
+background: #FFF;
+box-shadow: 0px 4px 49px 0px rgba(27, 28, 87, 0.12);}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

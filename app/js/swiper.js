@@ -264,33 +264,34 @@ var swiper =  new Swiper(".carousel-1", {
     },
 });
 
-var swiper =  new (this).Swiper(".carousel-2" , {
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    //     },
-    loop:false,
-    slidesPerView: 1,
-    spaceBetween: 0,
-    navigation: {
-        clickable: true,
-        nextEl: ".swiper-button-next2",
-        prevEl: ".swiper-button-prev2",
+var swiper = new this.Swiper(".carousel-2", {
+  // autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false,
+  //     },
+  loop: false,
+  slidesPerView: 1,
+  spaceBetween: 0,
+  nav: true,
+  navigation: {
+    clickable: true,
+    nextEl: ".swiper-button-next2",
+    prevEl: ".swiper-button-prev2",
+  },
+  pagination: {
+    el: ".swiper-pagination2",
+    clickable: true,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 1,
+      spaceBetween: 80,
     },
-    pagination: {
-        el: ".swiper-pagination2",
-        clickable: true,
+    1200: {
+      slidesPerView: 1,
+      spaceBetween: 80,
     },
-    breakpoints: {
-        768: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-        },
-        1200: {
-            slidesPerView: 1,
-            spaceBetween: 0,
-        },
-    },
+  },
 });
 
 
