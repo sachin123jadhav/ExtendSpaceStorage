@@ -222,7 +222,18 @@
         });
 
 </script>
+<script>
+    window.addEventListener('scroll', function () {
+        var scrollPosition = window.scrollY;
+        var linksPP = document.querySelector('.links-pp');
 
+        if (scrollPosition > 100) {
+            linksPP.classList.add('sticky');
+        } else {
+            linksPP.classList.remove('sticky');
+        }
+    });
+</script>
 
 
 

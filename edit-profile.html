@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>We Store Memories and Emotion</title>
+
+    <meta name="author" content="themesflat.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="app/dist/font-awesome.css">
+
+    <link rel="stylesheet" href="app/dist/app.css">
+    <link rel="stylesheet" href="app/dist/responsive.css">
+    <link rel="stylesheet" href="app/dist/owl.css">
+
+    <!-- Favicon and Touch Icons  -->
+    <link rel="shortcut icon" href="assets/images/logo/Favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/logo/Favicon.png">
+
+    <link rel="stylesheet" href="app/dist/custom.css">
+    <link rel="stylesheet" href="app/dist/rs-spacing.css">
+
+</head>
+
+<body class="body  counter-scroll">
+
+    <div class="preload preload-container3">
+        <div class="boxes ">
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /preload -->
+
+    <div id="wrapper">
+        <div id="pagee" class="clearfix">
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    fetch("header.html")
+                        .then(response => response.text())
+                        .then(data => {
+                            document.querySelector("body").insertAdjacentHTML("afterbegin", data);
+                        });
+                });
+            </script>
+<section class="flat-title ">
+    <div class="container3">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="title-inner style">
+                    <div class="title-group fs-12"><a class="home fw-6 text-color-3"
+                            href="index.html">Home</a><span>Terms & Conditions</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="update-profile">
+    <div class="container3">
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <div class="profile-photo">
+                    <img src="assets/images/profile/user-1.png" width="100%" alt="">
+                    <a href="" target="" ><i class="fa fa-camera"></i></a>
+                </div>
+
+            </div>
+            <div class="col-md-9 d-flex justify-content-between">
+
+                <div>
+                    <h2 class="text-color-4 fs-24 lh-24">Mobina Mirbagheri</h2>
+                    <h3 class="text-color-8 fw-4">Joined 4 March 2022</h3>
+
+                </div>
+                <div>
+                    <div class="total-earnings">
+                        <h3><i class="fa fa-wallet"></i> ₹600</h3>
+                        <p>Total Earnings</p>
+
+                    </div>
+                
+                </div>
+
+
+
+            </div>
+        </div>
+
+<div class="row">
+    <div class="col-md-3">
+        <ul class="nav nav-pills flex-column  mt-50" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="" data-toggle="tab" href="#edit-profile" role="tab" aria-controls="edit-profile"
+                    aria-selected="true"><i class="fa fa-user mr-5"></i> Edit Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="" data-toggle="tab" href="#bookings" role="tab" aria-controls="bookings"
+                    aria-selected="false"><i class="fas fa-calendar-alt mr-5"></i> Bookings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="" data-toggle="tab" href="#listings" role="tab" aria-controls="listings"
+                    aria-selected="false"><i class="far fa-list-alt mr-5"></i> Listings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id=""  href="#"  aria-controls="listings" data-toggle="modal" data-target="#basicModal"
+                    aria-selected="false"><i class="fas fa-sign-out-alt mr-5"></i> Logout</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-9">
+        <div class="tab-content pb-50" id="">
+            <div class="tab-pane fade show active" id="edit-profile" role="tabpanel">
+                <div class="d-flex justify-content-between align-items-center">
+<h2 class="fs-22 text-color-8 fw-5">Edit Profile</h2> <p>last update August 1</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+<p class="mb-30">Personal</p>
+
+<div class="row">
+    <div class="col-md-6">
+        <fieldset class="name-wrap">
+            <label class="font-2 fw-4 fs-16">First Name</label>
+            <input type="text" class="tb-my-input" name="name" placeholder="Enter First Name" required="">
+        </fieldset>
+    </div>
+    <div class="col-md-6">
+<fieldset class="name-wrap">
+    <label class="font-2 fw-4 fs-16">Surname</label>
+    <input type="text" class="tb-my-input" name="name" placeholder="Enter Surname" required="">
+</fieldset>
+    </div>
+
+
+    
+                    </div>
+
+<div class="form-group-2 mb-15">
+    <label for="">Country</label>
+    <div class="group-select">
+        <div class="nice-select" tabindex="0"><span class="current">Country</span>
+            <ul class="list">
+                <li data-value class="option selected">Country</li>
+                <li data-value="bungalow" class="option">Country</li>
+                <li data-value="Country" class="option">Country</li>
+                <li data-value="Country" class="option">Country</li>
+                <li data-value="sCountry" class="option">Country</li>
+                <li data-value="Country" class="option">Country
+                </li>
+                <li data-value="Country" class="option">Country</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="form-group-2 mb-15">
+    <label for="">State</label>
+    <div class="group-select">
+        <div class="nice-select" tabindex="0"><span class="current">State</span>
+            <ul class="list">
+                <li data-value class="option selected">State</li>
+                <li data-value="bungalow" class="option">State</li>
+                <li data-value="State" class="option">State</li>
+                <li data-value="State" class="option">State</li>
+                <li data-value="sState" class="option">State</li>
+                <li data-value="State" class="option">State
+                </li>
+                <li data-value="State" class="option">State</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="form-group-2 mb-15">
+    <label for="">City</label>
+    <div class="group-select">
+        <div class="nice-select" tabindex="0"><span class="current">City</span>
+            <ul class="list">
+                <li data-value class="option selected">City</li>
+                <li data-value="bungalow" class="option">City</li>
+                <li data-value="City" class="option">City</li>
+                <li data-value="City" class="option">City</li>
+                <li data-value="sCity" class="option">City</li>
+                <li data-value="City" class="option">City
+                </li>
+                <li data-value="City" class="option">City</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+                    </div>
+                    <div class="col-md-6">
+<p class="mb-30">Contact</p>
+
+<fieldset class="name-wrap">
+    <label class="font-2 fw-4 fs-16">Email ID</label>
+    <input type="email" class="tb-my-input" name="name" placeholder="Enter Email" required="">
+</fieldset>
+
+<div class="mb-15">
+    <label class="font-2 fw-4 fs-16">Phone Number</label>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <div class="form-group-2 form-style">
+                <div class="group-select">
+                    <div class="nice-select" tabindex="0">+91
+                        <ul class="list">
+                            <li data-value class="option selected">+91
+                            </li>
+                            <li data-value="bungalow" class="option">+91
+                            </li>
+                            <li data-value="apartment" class="option">+91
+                            </li>
+                            <li data-value="house" class="option">+91
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="text" class="form-control" placeholder="Enter your ph no" aria-label=""
+            aria-describedby="basic-addon1">
+    </div>
+</div>
+
+<fieldset class="">
+    <label for="">Enter your Address <span class="text-danger">*</span></label>
+    <input type="text" class="pl-10" name="text" placeholder="Address line 2" required="">
+</fieldset>
+
+
+
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#" class="btn btn-primary pr-50 pl-50 mt-30">Save</a>
+                    </div>
+                </div>
+                
+               
+            </div>
+            <div class="tab-pane fade" id="bookings" role="tabpanel" >
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="" data-toggle="tab" href="#my-bookings" role="tab"  aria-selected="true">My Bookings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="" data-toggle="tab" href="#pending-requests" role="tab" aria-selected="false">Pending Requests</a>
+                </li>
+              
+            </ul>
+            <div class="tab-content inner" id="">
+                <div class="tab-pane fade show active" id="my-bookings" role="tabpanel">
+
+<div class="row">
+    <div class="col-md-6">
+<div class="my-booking">
+    <div class="my-booking-img">
+        <img src="assets/images/product/booking.png" alt="">
+    </div>
+    <div class="my-booking-text">
+        <div>
+            <h3 class="fs-18 fw-5">Storage space in Maninagar, Delhi</h3>
+            <p class=""><span class="mr-5"> <img src="assets/images/icon/Location-green.svg" alt=""></span>Delhi NCR</p>
+        </div>
+        <div class="my-dates">
+            <div class="date-wrap">
+                <span><i class="fas fa-calendar-alt mr-5"></i> 12/07/2023</span>
+
+            </div>
+            <div>
+                -
+            </div>
+            <div class="date-wrap">
+                <span><i class="fas fa-calendar-alt mr-5"></i> 12/07/2023</span>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+    </div>
+    <div class="col-md-6"><div class="my-booking">
+        <div class="my-booking-img">
+            <img src="assets/images/product/booking.png" alt="">
+        </div>
+        <div class="my-booking-text">
+            <div>
+                <h3 class="fs-18 fw-5">Storage space in Maninagar, Delhi</h3>
+                <p class=""><span class="mr-5"> <img src="assets/images/icon/Location-green.svg" alt=""></span>Delhi NCR</p>
+            </div>
+            <div class="my-dates">
+                <div class="date-wrap">
+                    <span><i class="fas fa-calendar-alt mr-5"></i> 12/07/2023</span>
+    
+                </div>
+                <div>
+                    -
+                </div>
+                <div class="date-wrap">
+                    <span><i class="fas fa-calendar-alt mr-5"></i> 12/07/2023</span>
+    
+                </div>
+            </div>
+    
+        </div>
+    
+    </div></div>
+</div>
+
+                    
+
+                </div>
+                <div class="tab-pane fade" id="pending-requests" role="tabpanel">
+
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+<img src="assets/images/icon/empty-booking-request 1.svg" alt="">
+                        </div>
+
+                    </div>
+                    
+
+
+
+                </div>
+               
+            </div>
+            </div>
+            <div class="tab-pane fade" id="listings" role="tabpanel">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="" data-toggle="tab" href="#my-storage-listings" role="tab" aria-selected="true">My Storage Listings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="" data-toggle="tab" href="#pending-approvals" role="tab" aria-selected="false">Pending
+                            Approvals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="" data-toggle="tab" href="#booked-space" role="tab" aria-selected="false">Booked Space</a>
+                    </li>
+                
+                </ul>
+                <div class="tab-content inner" id="">
+                    <div class="tab-pane fade show active" id="my-storage-listings" role="tabpanel-1">
+                
+                        <div class="row">
+                            <div class="col-md-6">
+                                
+                                <div class="my-booking">
+                                    <div class="my-booking-img">
+                                        <img src="assets/images/product/booking.png" alt="">
+                                    </div>
+
+                                    <div class="my-booking-text">
+                                        <div>
+                                            <h3 class="fs-18 fw-5">Storage space in Maninagar, Delhi</h3>
+                                            <p class=""><span class="mr-5"> <img src="assets/images/icon/Location-green.svg"
+                                                        alt=""></span>Delhi NCR</p>
+                                        </div>
+                                     
+                
+                                    </div>
+                
+                                </div>
+                                <div class="my-booking">
+                                    <div class="my-booking-img">
+                                        <img src="assets/images/product/booking.png" alt="">
+                                    </div>
+                                
+                                    <div class="my-booking-text">
+                                        <div>
+                                            <h3 class="fs-18 fw-5">Storage space in Maninagar, Delhi</h3>
+                                            <p class=""><span class="mr-5"> <img src="assets/images/icon/Location-green.svg" alt=""></span>Delhi NCR</p>
+                                        </div>
+                                
+                                
+                                    </div>
+                                
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="my-booking">
+                                    <div class="my-booking-img">
+                                        <img src="assets/images/product/booking.png" alt="">
+                                    </div>
+                                    <div class="my-booking-text">
+                                        <div>
+                                            <h3 class="fs-18 fw-5">Storage space in Maninagar, Delhi</h3>
+                                            <p class=""><span class="mr-5"> <img src="assets/images/icon/Location-green.svg"
+                                                        alt=""></span>Delhi NCR</p>
+                                        </div>
+                                       
+                
+                                    </div>
+                
+                                </div>
+                                <div class="my-booking">
+                                    <div class="my-booking-img">
+                                        <img src="assets/images/product/booking.png" alt="">
+                                    </div>
+                                    <div class="my-booking-text">
+                                        <div>
+                                            <h3 class="fs-18 fw-5">Storage space in Maninagar, Delhi</h3>
+                                            <p class=""><span class="mr-5"> <img src="assets/images/icon/Location-green.svg" alt=""></span>Delhi NCR</p>
+                                        </div>
+                                
+                                
+                                    </div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                
+                
+                
+                    </div>
+                    <div class="tab-pane fade" id="pending-approvals" role="tabpanel-1">Pending Approvals</div>
+                    <div class="tab-pane fade" id="booked-space" role="tabpanel-1">Booked Space</div>
+                
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</section>
+           
+    
+
+         
+<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content log-out">
+          
+            <div class="modal-body">
+                <h3>Are you sure?</h3>
+                <p>You will have to login again to access your account</p>
+            <p> You won’t be able to receive booking notifications till the time you are logged out.</p>
+            </div>
+            <div class="text-center mt-30">
+                
+                <button type="button" class="btn btn-danger btn-lg pl-80 pr-80">Logout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+            <script>
+                document.addEventListener("DOMContentLoaded", function () {
+                    fetch("footer.html")
+                        .then(response => response.text())
+                        .then(data => {
+                            document.querySelector("body").insertAdjacentHTML("beforeend", data);
+                        });
+                });
+            </script>
+
+
+
+
+
+            <!-- Bottom -->
+        </div>
+        <!-- /#page -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Modal Popup Bid -->
+
+
+
+
+    <a id="scroll-top" class="button-go"></a>
+
+    <!-- Javascript -->
+
+    <script src="app/js/jquery.min.js"></script>
+    <script src="app/js/popper.min.js"></script>
+    <script src="app/js/jquery.easing.js"></script>
+    <script src="app/js/jquery.nice-select.min.js"></script>
+    <script src="app/js/bootstrap.min.js"></script>
+    <script src="app/js/swiper-bundle.min.js"></script>
+    <script src="app/js/owl.js"></script>
+    <script src="app/js/swiper.js"></script>
+
+    <script src="app/js/jquery-validate.js"></script>
+
+    <script src="app/js/countto.js"></script>
+    <script src="app/js/plugin.js"></script>
+    <script src="app/js/shortcodes.js"></script>
+    <script src="app/js/main.js"></script>
+
+    <script>
+    
+    $(document).ready(function () {
+            // Add click event listener to all links
+            $('.links-pp a').click(function (e) {
+                // Prevent default link behavior
+                e.preventDefault();
+
+                // Remove active class from all links
+                $('.links-pp a').removeClass('active');
+
+                // Add active class to the clicked link
+                $(this).addClass('active');
+
+                // Get the href attribute value (ID) of the clicked link
+                var targetId = $(this).attr('href');
+
+                // Scroll to the target ID with animation
+                $('html, body').animate({
+                    scrollTop: $(targetId).offset().top
+                }, 1000); // Adjust the scroll speed if needed
+            });
+        });
+
+</script>
+<script>
+    window.addEventListener('scroll', function () {
+        var scrollPosition = window.scrollY;
+        var linksPP = document.querySelector('.links-pp');
+
+        if (scrollPosition > 100) {
+            linksPP.classList.add('sticky');
+        } else {
+            linksPP.classList.remove('sticky');
+        }
+    });
+</script>
+
+
+
+</body>
+
+
+</html>
